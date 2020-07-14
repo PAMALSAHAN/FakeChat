@@ -47,4 +47,11 @@ error fixed
     componentts use karana eka.
         button ekak hadnawa.eke porp walin wen karala gannawa eken title eka style eka textStyle eka kadala 
         gannawa rnss use karala styleSheet create karala danawa.
-        
+
+        passwordTextField 
+            meke 
+                marginHorizontal :20  kiyanne 20 padding left and right
+                api meke screen heigth ekai width ekai use karanne eka eka screen eka anuwa 
+                wenas wena hinda.
+                onEnding kiyanne mekata password field eka validate karala tina eka.
+                

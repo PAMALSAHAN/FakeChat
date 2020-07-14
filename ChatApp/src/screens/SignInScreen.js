@@ -4,6 +4,7 @@ import {StyleSheet,View,Text} from 'react-native'
 import Button from '../components/Button'
 import String from '../const/String'
 import EmailTextField from '../components/EmailTextField'
+import PasswordTextField from '../components/PasswordTextField'
 
 
 function SignInScreen() {
@@ -13,6 +14,7 @@ function SignInScreen() {
             <Button title={String.Join}  ></Button>
             
             <EmailTextField></EmailTextField>
+            <PasswordTextField></PasswordTextField>
         </View>
     )
 }
