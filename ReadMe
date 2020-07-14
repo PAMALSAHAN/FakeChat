@@ -1,0 +1,50 @@
+navigation eka danna one
+    npm install @react-navigation/native
+    npm install @react-navigation/stack
+
+    expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+    npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+-------------------------------------------------------------------------
+src ekak hadala src ekak hadala eke  screen danna tinne.screen 4k hadanwa. 
+---------------------------------------------------------------------------
+ita passe hadanne navigation eka 
+    eke  hadanawa chat flow kiyala function ekak.eke thama navigation tika thiyan inne stack ekakta dala.eka eka pages tika.
+    ita passe MainStackNavigator kiyala function ekak hadala eken eke return eka athulata danawa chatFlow() eka.
+--------------------------------------------------------------------------------
+ita passe karannne app js eke code ain karala 
+---------------------------------------------------------------
+    mekedi server error ekak awa 5000
+        ekata karanne npm update eka gahala 
+        expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+        npm install @react-navigation/native
+        npm install @react-navigation/stack
+        npm install react-navigation
+    ita issella npm install karala ganna one.update ekath ehemmama gahanna.
+
+error fixed
+-----------------------------------------------------------------------------------------
+13
+    mekedi karanne email and password eke validations hadana eka.mekata util kiyala file ekak hadala utility file ekak hadala 
+    validation walata function ekak liyanawa.
+        email eka validation karanakota 
+            let isValid = expression.test(String(term).toLowerCase())
+            mekedi karanne expression eke tina symbols tinawada balanawa input text eka(term) eke dena hama ekakma toLowerCase karala thma ganne.
+    -------------------------------------------------------------------------------------------
+    ita passe colors tika import karagannawa.ekata karanne const ekak hadala colors tika daganna eka.
+        class eka Colors hinda const eke colors ek c capital.
+    -------------------------------------------------------------------------------------------------
+    ita passe constant ekak hadanawa.const file ekak hadanawa.eke js file ekak hadanawa.
+        meke import karana dimension eken height eka hadagannawa.platform eken karanne ios da android da kiyala balana eka.
+    --------------------------------------------
+    const eka athule hadanawa String kiyala file ekak.
+        ekata use karana string danawa ekata use karana namin ganna puluwan.
+    ---------------------------------------------------------------------------------------------
+    assets folder ekak hadanawa eka hadanne src eken pitatha.
+    ------------------------------------------------------------------------------------
+    images const ekak hadala ekata image tina path eka aragen dagannawa variable ekakata.
+    ---------------------------------------------------------------------------------------------------
+    componentts use karana eka.
+        button ekak hadnawa.eke porp walin wen karala gannawa eken title eka style eka textStyle eka kadala 
+        gannawa rnss use karala styleSheet create karala danawa.
+        
