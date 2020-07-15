@@ -15,15 +15,16 @@ const button = (props) => {
 const styles = StyleSheet.create({
     button: {
     display: "flex",
+    
     height: 50,
     borderRadius: 5,
     paddingLeft: 20,
     paddingRight: 20,
     justifyContent: "center",
     alignItems: "center",
-    marginLeft: 20,
+    margin:20,
 
-    backgroundColor: Color.uaStudiosGreen,
+    backgroundColor: Color.black,
     shadowColor: Color.uaStudiosGreen,
     shadowOpacity: 0.4,
     shadowOffset: { height: 10, width: 10 },

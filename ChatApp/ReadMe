@@ -54,4 +54,21 @@ error fixed
                 api meke screen heigth ekai width ekai use karanne eka eka screen eka anuwa 
                 wenas wena hinda.
                 onEnding kiyanne mekata password field eka validate karala tina eka.
-                
+        ------------------------------------------------------
+        dismisskeyBoard 
+            screen eka touch karama feedback enna one ne eka hinda use karana ekak.
+-----------------------------------------------------------------------------------------------
+31
+    SIGN IN EKA 
+        mekedi karanne mulinma hook hadaganna eka useState eken karanne state eka manage karana eka.
+        useEffect ekath use karanawa.
+         
+         alert eken alert eka denawa.
+            use karana okkoma import tika use karanawa.
+        ita passe karanne useState tika hada ganna eka.
+
+        validateEmailField ekai validatePasswordField ekai haduwahama karanna tinne functino eka liyanna witharai.
+        ita passe styleSheet eka edit karanawa.
+            keyboardavoidingview eken karanne kebord eka awahama adjustment karanna amarui view eke thiyala 
+            eka hinda use karanawa pasition wenas karaganna wage ewwata.
+            

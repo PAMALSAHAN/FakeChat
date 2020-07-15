@@ -7,7 +7,10 @@ const Color = {
     smoke: '#EEEEEE',
     white: '#FFFFFF',
     uaStudiosGreen: '#219653',
-    red: 'red'
+    red: 'red',
+    gold:'#FFD500',
+    springBud:'#008015',
+    teal:'#008080'
 }
 
 export default Color
