@@ -106,3 +106,22 @@ error fixed
         mka use karama stack eka 0 wela yanawa.ehema nathiwa 
             navigation.navigate dunnanam aye sign in  screen ekata enna puluwan.
             aye back ekata yanna one nathi hinda use karanne reset eka.
+-----------------------------------------------------------------------------
+49
+    dan karanna one group screen eke left ekata right ekata button ekak danna mokada grups add karanna tinne eken.ekata use 
+    karanawa UseLayoutEffect,UseEffect,UseState 
+        ita passe funciton ekak hadanawa UseLayoutEffect eken. passe component ekak hadanawa button with background kiyala.
+        button eka hadagaththahama karana tinne group screen ekata dana eka.
+    add button eka click karama wada.
+    -----------------------------------------------------------------
+    dan one custom text field ekak hadanna.
+    -----------------------------------------------------
+    add goup screen eka hadanne mekata states gannwa.isLoading mekedi ganne eka thmai loader eka new group ekak create karana kota.
+     mek validate function eka samanya vidihama thmai 
+        meke function ekak hadanawa createGroupToFireBase 
+            firestore.collection("groups").doc() meke callection ekak hadanawa group kiyala eke doc() kiyala use karahama wenne group ekata 
+            adalawa id eka genenrate wenawa random.ekata anuwa doc ekak hadenawa.
+        
+         const membersRef = firestore.collection("members").doc(groupId).collection('member').doc()
+             mekedi members kiyala collection ekak halada eke id eka widihata use karanne groupId eka.mokada eka pass karanawa
+             funciton eken.ita passe e id eka aye collection ekak hadanawa. e member ekata user widihata add wenawa.

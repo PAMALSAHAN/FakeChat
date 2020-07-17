@@ -1,7 +1,30 @@
-import React from 'react'
+import React,{useLayoutEffect,useState,useEffect} from 'react'
 import {StyleSheet,View,Text} from 'react-native'
+import ButtonWithBackground from '../components/ButtonWithBackground'
+import Images from '../const/Images'
+function GroupsScreen({navigation}) {
 
-function GroupsScreen() {
+    useLayoutEffect(()=>{
+        navigation.setOptions({
+            headerRight:()=>(
+                <ButtonWithBackground onPress={() => {
+                    navigation.navigate('AddGroupScreen')
+                }}
+                    image={Images.add}
+                />
+                
+            ),
+            headerLeft:()=>(
+                <ButtonWithBackground onPress={() => {
+                    signOutUser()
+                }}
+                    image={Images.logout}
+                />
+
+            )
+        })
+    })
+    
     return (
         <View style={styles.container}>
             <Text style={styles.text}> Gropus Screen </Text>

@@ -12,7 +12,8 @@ const Strings = {
     JoinChat: "Join Chat",
     JoinChatConfirmMessage: "Are you sure you want to join this chat?",
     joinMessage: "You joined this group successfully!",
-    JoinGroupError: "Unable to join this group!"
+    JoinGroupError: "Unable to join this group!",
+    GroupCreate:"Group created Successfully"
 
     
 }
