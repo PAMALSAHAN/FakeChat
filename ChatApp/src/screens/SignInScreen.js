@@ -16,7 +16,7 @@ import Strings from '../const/String'
 import firebase from '../firebase/Firebase'
 
 
-function SignInScreen() {
+function SignInScreen({ navigation }) {
 
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
@@ -46,22 +46,30 @@ function SignInScreen() {
                 .then(user => {
                     setIsLoading(false)
                     Alert.alert("Logged In")
+                    navigation.reset({
+                        index: 0,
+                        routes: [{ name: 'GroupsScreen' }]
+                    })
 
                 }).catch(error => {
-                
+
                     firebase.auth().createUserWithEmailAndPassword(email, password)
                         .then(user => {
                             setIsLoading(false)
                             Alert.alert('Create New User')
+                            navigation.reset({
+                                index: 0,
+                                routes: [{ name: 'GroupsScreen' }]
+                            })
                         }).catch(error => {
                             setIsLoading(false)
                             console.log(error)
-                            Alert.alert(error)
+                            Alert.alert(error.message)
                         })
                 })
         } catch (error) {
             setIsLoading(false)
-            Alert.alert(error)
+            Alert.alert(error.message)
         }
     }
 
@@ -101,7 +109,7 @@ function SignInScreen() {
                             onValidatePasswordField={validatePasswordField}
 
                         />
-                        <Button title={Strings.Join } onPress={performAuth} isLoading={isLoading}/>
+                        <Button title={Strings.Join} onPress={performAuth} isLoading={isLoading} />
 
                     </SafeAreaView>
                 </View>

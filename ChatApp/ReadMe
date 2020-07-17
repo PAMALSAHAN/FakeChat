@@ -93,4 +93,16 @@ error fixed
     button ekata isLoading prop eda add karanawa. setisloading eka true unama button eka bennanne naha.ekai isLoading kiyala 
     ekak use karala tinne.on press ekedi validation eka balana funciton eka chekch karanava email password harida kiyala ita passe
     register function eka call karanawa.ita firebase authentication eka check karana eka thma karnanne.
+--------------------------------------------------------------------------------------------------------------------
+48
+    ita passe karanna tinne ilaga screen ekata ganna one.
+        meke siginin screen eke e function ekata navigation prop ekak dagannawa.ita passe karanne e navigation eka use karala 
+        navigation stack ekata call karala awashya scree ekata yanawa.
     
+             navigation.reset({
+                                index: 0,
+                                routes: [{ name: 'GroupsScreen' }]
+                            })
+        mka use karama stack eka 0 wela yanawa.ehema nathiwa 
+            navigation.navigate dunnanam aye sign in  screen ekata enna puluwan.
+            aye back ekata yanna one nathi hinda use karanne reset eka.
