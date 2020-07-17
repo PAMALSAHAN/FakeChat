@@ -71,4 +71,26 @@ error fixed
         ita passe styleSheet eka edit karanawa.
             keyboardavoidingview eken karanne kebord eka awahama adjustment karanna amarui view eke thiyala 
             eka hinda use karanawa pasition wenas karaganna wage ewwata.
-            
+                 keyboardavoidingview eken karanne kebord eka awahama adjustment karanna amarui view eke thiyala 
+            eka hinda use karanawa pasition wenas karaganna wage ewwata.
+            works fine
+-------------------------------------------------------------------------------------
+35
+    firebase ekka connect karanna hadanne.
+        npm install add react-native-dotenv 
+    ita passe babelconfig ekata danna one 
+        "module:metro-react-native-babel-preset","module:react-native-dotenv"
+    .env file ekak hadanawa
+
+    npm install -g npm update karanna (dan one naha)
+
+    firebase eke file ekak hadala configure file ekata save karala e okkma keys .env ekata dala passe aye import karanawa
+        passe firestore eka import kalana const ekak export karanawa.
+            ----mekedi me serama hairyanne naha errors paninawa eka hinda karanna tinne yarn eken install krala firebase add karala function 
+            dana eka. dotenv eka use karanne nathiwa thama hadanne.
+------------------------------------------------------------------------------------------------------------------
+44
+    button ekata isLoading prop eda add karanawa. setisloading eka true unama button eka bennanne naha.ekai isLoading kiyala 
+    ekak use karala tinne.on press ekedi validation eka balana funciton eka chekch karanava email password harida kiyala ita passe
+    register function eka call karanawa.ita firebase authentication eka check karana eka thma karnanne.
+    

@@ -44,10 +44,11 @@ function SignInScreen() {
             setIsLoading(true)
             firebase.auth().signInWithEmailAndPassword(email, password)
                 .then(user => {
-                    isLoading(false)
+                    setIsLoading(false)
                     Alert.alert("Logged In")
 
                 }).catch(error => {
+                
                     firebase.auth().createUserWithEmailAndPassword(email, password)
                         .then(user => {
                             setIsLoading(false)
@@ -100,11 +101,7 @@ function SignInScreen() {
                             onValidatePasswordField={validatePasswordField}
 
                         />
-                        <Button
-                            title={Strings.Join}
-
-
-                        />
+                        <Button title={Strings.Join } onPress={performAuth} isLoading={isLoading}/>
 
                     </SafeAreaView>
                 </View>
