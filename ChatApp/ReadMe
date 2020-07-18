@@ -125,3 +125,6 @@ error fixed
          const membersRef = firestore.collection("members").doc(groupId).collection('member').doc()
              mekedi members kiyala collection ekak halada eke id eka widihata use karanne groupId eka.mokada eka pass karanawa
              funciton eken.ita passe e id eka aye collection ekak hadanawa. e member ekata user widihata add wenawa.
+-------------------------------------------------------------------------------------------------------
+    meke hadanawa gropu item component ekak eka use karanne group eka pennana. 
+        ita passe GroupsScreen eke pennanna one 
