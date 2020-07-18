@@ -139,4 +139,8 @@ error fixed
 ------------------------------------------------------------------------------------------------
     meke ita passe balanna one hama person kenektama chat karanna baha karanna one authorized ekak tiyeda balanna one.
     eka check karanna karanna tinne function eka hadala okkoma members la aragena 
+--------------------------------------------------------------------------------------
+   splash screnn eke 
+       mekedi karanne  firebase.auth().onAuthStateChanged((user) 
+             mekedi karanne auth eka balala thamai login screen ekata yanawada kiyala balanne.
 

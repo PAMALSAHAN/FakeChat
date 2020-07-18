@@ -29,6 +29,18 @@ function GroupsScreen({navigation}) {
         })
     })
 
+    signOutUser = async () => {
+        try{
+            await firebase.auth().signOut()
+            // navigation.reset({
+            //     index: 0,
+            //     routes: [{name: 'SplashScreen'}]
+            // })
+        }catch(e){
+            console.log(e)
+        }
+    }
+
     useEffect(() => {
         getChats()
     }, [])
