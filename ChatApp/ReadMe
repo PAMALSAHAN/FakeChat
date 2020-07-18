@@ -128,3 +128,15 @@ error fixed
 -------------------------------------------------------------------------------------------------------
     meke hadanawa gropu item component ekak eka use karanne group eka pennana. 
         ita passe GroupsScreen eke pennanna one 
+            gorup screnn ekedi use karanawa
+                  keyExtractor={(item, index) => 'key' + index}
+                  meka use karanne unique wenna denna one list eka iteme eka eka hinda use karanawa meka.
+                   renderItem={({ item }) => { meken thama item tika render karanne 
+---------------------------------------------------------------------------------------------
+    message field view kiala kiyanne message dana text box eka eka use karanawa danna message 
+----------------------------------------------------------------------------------------------------------------
+    chat screen eka hadanawa
+------------------------------------------------------------------------------------------------
+    meke ita passe balanna one hama person kenektama chat karanna baha karanna one authorized ekak tiyeda balanna one.
+    eka check karanna karanna tinne function eka hadala okkoma members la aragena 
+
