@@ -133,10 +133,6 @@ const styles = StyleSheet.create({
         margin: 0.04 * Constants.screenHeight,
         width: 150,
         height: 150,
-
-
-
-
     }
 
 })
